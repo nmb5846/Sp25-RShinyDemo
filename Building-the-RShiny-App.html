@@ -456,7 +456,7 @@ Sp1over_years &lt;- names(which.max(table(Sp1year))) #this one too (as an info b
 Sp2year &lt;-lubridate::year(Species2$observed_on) 
 Sp2month &lt;-lubridate::month (Species2$observed_on)
 
-Sp2num_sightings &lt;- nrow(&quot;Species2&quot;) 
+Sp2num_sightings &lt;- nrow(Species2) 
 Sp2over_years &lt;- names(which.max(table(Sp2year)))</code></pre>
 <p>Now we are going to continue to prepare data for the RShiny app, this
 time we are going to use the <strong>Cropscape</strong> package to pair
@@ -476,7 +476,7 @@ combine the two dataframes using the <strong>st_join</strong>
 function</p>
 <pre class="r"><code>#----Load and wrangle Cropscape CDL information---
 
-cdl_colormap &lt;- read.csv(&quot;~/RShiny Sp25 Demo/INSECT-NET-RShiny-Tutorial_files/cdl_colormap.csv&quot;)
+cdl_colormap &lt;- read.csv(&quot;~/RShiny Sp25 Demo/Building-the-RShiny-App_files/cdl_colormap.csv&quot;)
    View(cdl_colormap)
 
 data &lt;- GetCDLData(aoi = &#39;42&#39;, year = 2023, type = &#39;f&#39;)
@@ -739,7 +739,7 @@ copy/paste from the iNat description of your taxa).</p>
               width = 4,
               infoBox(
                 width = 12,
-                value = Sp1number_counties,
+                value = format(round(Sp1number_counties, 0), nsmall = 0),
                 title = &quot;%age of PA counties with obs&quot;,
                 icon = icon(&quot;location-dot&quot;),
                 color = &quot;primary&quot;
@@ -856,7 +856,7 @@ Shiny app.</p>
               width = 4,
               infoBox(
                 width = 12,
-                value = Sp2number_counties,
+                value = format(round(Sp2number_counties, 0), nsmall = 0),
                 title = &quot;%age of PA counties with obs&quot;,
                 icon = icon(&quot;location-dot&quot;),
                 color = &quot;primary&quot;
