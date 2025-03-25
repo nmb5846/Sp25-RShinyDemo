@@ -1,0 +1,133 @@
+value,red,green,blue,alpha,class_name
+0,0,0,0,255,Background
+1,255,211,0,255,Corn
+2,255,38,38,255,Cotton
+3,0,168,228,255,Rice
+4,255,158,11,255,Sorghum
+5,38,112,0,255,Soybeans
+6,255,255,0,255,Sunflower
+10,112,165,0,255,Peanuts
+11,0,175,75,255,Tobacco
+12,221,165,11,255,Sweet Corn
+13,221,165,11,255,Pop or Orn Corn
+14,126,211,255,255,Mint
+21,226,0,124,255,Barley
+22,137,98,84,255,Durum Wheat
+23,216,181,107,255,Spring Wheat
+24,165,112,0,255,Winter Wheat
+25,214,158,188,255,Other Small Grains
+26,112,112,0,255,Dbl Crop WinWht/Soybeans
+27,172,0,124,255,Rye
+28,160,89,137,255,Oats
+29,112,0,73,255,Millet
+30,214,158,188,255,Speltz
+31,209,255,0,255,Canola
+32,126,153,255,255,Flaxseed
+33,214,214,0,255,Safflower
+34,209,255,0,255,Rape Seed
+35,0,175,75,255,Mustard
+36,255,165,226,255,Alfalfa
+37,165,242,140,255,Other Hay/Non Alfalfa
+38,0,175,75,255,Camelina
+39,214,158,188,255,Buckwheat
+41,168,0,228,255,Sugarbeets
+42,165,0,0,255,Dry Beans
+43,112,38,0,255,Potatoes
+44,0,175,75,255,Other Crops
+45,177,126,255,255,Sugarcane
+46,112,38,0,255,Sweet Potatoes
+47,255,102,102,255,Misc Vegs & Fruits
+48,255,102,102,255,Watermelons
+49,255,204,102,255,Onions
+50,255,102,102,255,Cucumbers
+51,0,175,75,255,Chick Peas
+52,0,221,175,255,Lentils
+53,84,255,0,255,Peas
+54,242,163,119,255,Tomatoes
+55,255,102,102,255,Caneberries
+56,0,175,75,255,Hops
+57,126,211,255,255,Herbs
+58,232,191,255,255,Clover/Wildflowers
+59,175,255,221,255,Sod/Grass Seed
+60,0,175,75,255,Switchgrass
+61,191,191,119,255,Fallow/Idle Cropland
+63,147,204,147,255,Forest
+66,255,0,255,255,Cherries
+67,255,142,170,255,Peaches
+68,186,0,79,255,Apples
+69,112,68,137,255,Grapes
+70,0,119,119,255,Christmas Trees
+71,177,154,112,255,Other Tree Crops
+72,255,255,126,255,Citrus
+74,181,112,91,255,Pecans
+75,0,165,130,255,Almonds
+76,233,214,175,255,Walnuts
+77,177,154,112,255,Pears
+81,242,242,242,255,Clouds/No Data
+82,154,154,154,255,Developed
+83,75,112,163,255,Water
+87,126,177,177,255,Wetlands
+88,232,255,191,255,Nonag/Undefined
+92,0,255,255,255,Aquaculture
+111,75,112,163,255,Open Water
+112,211,226,249,255,Perennial Ice/Snow
+121,154,154,154,255,Developed/Open Space
+122,154,154,154,255,Developed/Low Intensity
+123,154,154,154,255,Developed/Med Intensity
+124,154,154,154,255,Developed/High Intensity
+131,204,191,163,255,Barren
+141,147,204,147,255,Deciduous Forest
+142,147,204,147,255,Evergreen Forest
+143,147,204,147,255,Mixed Forest
+152,198,214,158,255,Shrubland
+176,232,255,191,255,Grassland/Pasture
+190,126,177,177,255,Woody Wetlands
+195,126,177,177,255,Herbaceous Wetlands
+204,0,255,140,255,Pistachios
+205,214,158,188,255,Triticale
+206,255,102,102,255,Carrots
+207,255,102,102,255,Asparagus
+208,255,102,102,255,Garlic
+209,255,102,102,255,Cantaloupes
+210,255,142,170,255,Prunes
+211,51,73,51,255,Olives
+212,228,112,38,255,Oranges
+213,255,102,102,255,Honeydew Melons
+214,255,102,102,255,Broccoli
+215,102,153,76,255,Avocados
+216,255,102,102,255,Peppers
+217,177,154,112,255,Pomegranates
+218,255,142,170,255,Nectarines
+219,255,102,102,255,Greens
+220,255,142,170,255,Plums
+221,255,102,102,255,Strawberries
+222,255,102,102,255,Squash
+223,255,142,170,255,Apricots
+224,0,175,75,255,Vetch
+225,255,211,0,255,Dbl Crop WinWht/Corn
+226,255,211,0,255,Dbl Crop Oats/Corn
+227,255,102,102,255,Lettuce
+228,255,210,0,255,Dbl Crop Triticale/Corn
+229,255,102,102,255,Pumpkins
+230,137,98,84,255,Dbl Crop Lettuce/Durum Wht
+231,255,102,102,255,Dbl Crop Lettuce/Cantaloupe
+232,255,38,38,255,Dbl Crop Lettuce/Cotton
+233,226,0,124,255,Dbl Crop Lettuce/Barley
+234,255,158,11,255,Dbl Crop Durum Wht/Sorghum
+235,255,158,11,255,Dbl Crop Barley/Sorghum
+236,165,112,0,255,Dbl Crop WinWht/Sorghum
+237,255,211,0,255,Dbl Crop Barley/Corn
+238,165,112,0,255,Dbl Crop WinWht/Cotton
+239,38,112,0,255,Dbl Crop Soybeans/Cotton
+240,38,112,0,255,Dbl Crop Soybeans/Oats
+241,255,211,0,255,Dbl Crop Corn/Soybeans
+242,0,0,153,255,Blueberries
+243,255,102,102,255,Cabbage
+244,255,102,102,255,Cauliflower
+245,255,102,102,255,Celery
+246,255,102,102,255,Radishes
+247,255,102,102,255,Turnips
+248,255,102,102,255,Eggplants
+249,255,102,102,255,Gourds
+250,255,102,102,255,Cranberries
+254,38,112,0,255,Dbl Crop Barley/Soybeans
